@@ -1,4 +1,4 @@
-.works-container {
+.works__container {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -7,13 +7,14 @@
   display: flex;
   margin-top: 50px;
 }
-.works-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-.works-list-item {
+
+.works-list__item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.works-list-text {
+.works-list__text {
   position: absolute;
   bottom: 0px;
   right: 0px;

@@ -1,4 +1,4 @@
-.client-container {
+.client__container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -10,11 +10,11 @@
   margin-top: 50px;
 }
 
-.client-item:not(:last-child) {
+.client-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-icon {
+.client-list__icon {
   width: 172px;
   height: 92px;
   border: 1px solid #afb1b8;
